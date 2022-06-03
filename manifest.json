@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Home Bookmarks",
+  "version": "1.0",
+
+  "description": "Creates a new home page with favorite links",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "home.html"
+  },
+
+  "permissions": ["bookmarks", "history", "topSites"]
+}
